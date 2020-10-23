@@ -1,0 +1,122 @@
+.wrapper {
+  width: 960px;
+  margin: auto; }
+
+body {
+  margin: 0;
+  padding: 0;
+  border: 0; }
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table; }
+
+#header {
+  max-width: 100%;
+  width: 100%;
+  background-color: #0f1526; }
+
+.header-portada {
+  max-width: 100%;
+  width: 100%; }
+
+.nav-ul {
+  list-style: none; }
+  .nav-ul li {
+    float: left; }
+  .nav-ul a {
+    text-decoration: none;
+    color: white; }
+
+.nav-ul li {
+  padding-top: 10px; }
+  .nav-ul li + li {
+    margin-left: 37px; }
+
+.header-iconos {
+  padding-top: 41px;
+  padding-left: 100px;
+  padding-bottom: 30px;
+  margin-right: 350px;
+  float: left;
+  width: 106px; }
+
+.main-content-1-info img {
+  width: 18%;
+  height: 20%;
+  margin-left: 40px;
+  margin-right: 0; }
+
+.main-content-1-info h2 {
+  color: #0f1526; }
+
+.main-content-1-titulo {
+  text-align: center;
+  margin: 60px; }
+
+#main-content-img img {
+  max-width: 100%;
+  width: 100%; }
+
+#main-content-ic {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  right: 20%;
+  bottom: 240px; }
+
+#main-content-2 {
+  position: relative;
+  /*display: inline-block;*/
+  text-align: center; }
+
+.main-content-2-info {
+  position: absolute;
+  top: 70px;
+  left: 600px; }
+
+.main-content-2-info p {
+  color: white;
+  width: 400px;
+  text-align: justify;
+  font-size: 100%; }
+
+.main-content-2-info h1 {
+  color: white;
+  text-align: left; }
+
+/*.main-content-2-iconos span//{
+    position: absolute;
+    top: 281px;
+    left: 270px}*/
+#footer {
+  padding: 4.88% 0;
+  background-color: #171717; }
+
+.footer-nav-ul li {
+  list-style: none;
+  float: left; }
+  .footer-nav-ul li + li {
+    margin-left: 4.30%; }
+  .footer-nav-ul li a {
+    text-decoration: none;
+    color: white; }
+
+.footer-nav {
+  margin-bottom: 10.55%; }
+
+.footer-nav-ul {
+  position: absolute;
+  left: 450px; }
+
+.texto {
+  position: absolute;
+  color: white;
+  margin-left: 10%;
+  left: 17%;
+  margin-top: 20px; }
+
+.footer-icono-facebook {
+  left: 520px;
+  position: absolute; }
