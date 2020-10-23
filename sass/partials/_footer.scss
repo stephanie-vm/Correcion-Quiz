@@ -1,0 +1,35 @@
+#footer{
+    padding:4.88% 0;
+    background-color: #171717;
+}
+
+.footer-nav-ul li {
+    list-style:none;
+    float:left;
+    +li{
+        margin-left:4.30% ;
+    }
+    a{
+        text-decoration: none;
+        color:white;
+    }
+}
+.footer-nav{
+    margin-bottom: 10.55%;
+}
+.footer-nav-ul{
+    position: absolute;
+    left: 450px;
+}
+.texto{
+    position: absolute;
+    color: white;
+    margin-left: 10%;
+    left:17%;
+    margin-top:20px; 
+}
+.footer-icono-facebook{
+
+    left:520px;
+    position: absolute;
+}

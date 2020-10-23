@@ -1,0 +1,33 @@
+#header{
+    max-width: 100%;
+    width: 100%;
+    background-color:#0f1526;
+}
+.header-portada{
+    max-width: 100%;
+    width: 100%;
+}
+.nav-ul{
+    list-style: none;
+    li{
+        float: left;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+}
+.nav-ul li{
+    +li{
+        margin-left: 37px;
+    }
+    padding-top:10px;
+}
+.header-iconos{
+    padding-top: 41px;
+    padding-left: 100px;
+    padding-bottom: 30px;
+    margin-right:350px;
+    float: left;
+    width: 106px;
+}

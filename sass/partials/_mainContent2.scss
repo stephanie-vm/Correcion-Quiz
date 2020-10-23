@@ -1,0 +1,38 @@
+#main-content-img img{
+    max-width: 100%;
+    width: 100%;
+}
+#main-content-ic{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    right:20%;
+    bottom:240px;
+}
+#main-content-2{
+    position: relative;
+    /*display: inline-block;*/
+    text-align: center;
+}
+.main-content-2-info{
+    position: absolute;
+    top:70px;
+    left:600px
+
+}
+.main-content-2-info p{
+    color:white;
+    width:400px;
+    text-align: justify;
+    font-size:100%;
+}
+.main-content-2-info h1{
+    color:white;
+    text-align: left;
+}
+/*.main-content-2-iconos span//{
+    position: absolute;
+    top: 281px;
+    left: 270px}*/
+
+
